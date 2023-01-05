@@ -1,19 +1,9 @@
-const numbers = [1, 2, 3]
-const [a, ,b] = numbers
-console.log(a)
-console.log(b)
+//const array1 = [1, 4, 9, 16]
+//console.log(array1)
+//const map1 = array1.map(x => x < 2)
+//console.log(map1)
+//console.log(array1)
 
-const person = {
-    name: 'Kertu',
-    age: 25
-}
-
-const {name} = person
-const {age} = person
-
-console.log(name)
-console.log(age)
-
-const printName = ({name}) => console.log(name)
-
-printName(person)
+const array1 = [5, 12, 8, 138, 46]
+const found = array1.find(element => element > 10);
+console.log(found);
