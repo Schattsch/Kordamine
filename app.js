@@ -3,13 +3,20 @@
 //const newNumbers =[...numbers, 4]
 //console.log(newNumbers)
 
-const person = {
-    name: 'Kertu'
+//const person = {
+//    name: 'Kertu'
+//}
+
+//const newPerson = {
+//    ...person,
+//    age: 25
+//}
+//console.log (person)
+//console.log(newPerson)
+
+
+const filter = (args) => {
+    return args.filter(el => el === 1)
 }
 
-const newPerson = {
-    ...person,
-    age: 25
-}
-console.log (person)
-console.log(newPerson)
+console.log(filter(args, 1, 2, 3, 1))
