@@ -1,24 +1,15 @@
-class Human{
-    constructor(){
-        this.gender = "male"
-    }
-    printGender(){
-        console.log(this.gender)
-    }
+//const numbers = [1, 2, 3]
+//console.log(numbers)
+//const newNumbers =[...numbers, 4]
+//console.log(newNumbers)
+
+const person = {
+    name: 'Kertu'
 }
 
-class Person extends Human{
-    constructor(){
-        super()
-        this.name = "Kertu"
-        this.gender = "female"
-    }
-    printName(){
-        console.log(this.name)
-    }
+const newPerson = {
+    ...person,
+    age: 25
 }
-
-const person = new Person()
-console.log(person)
-person.printName()
-person.printGender()
+console.log (person)
+console.log(newPerson)
