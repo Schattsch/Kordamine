@@ -1,12 +1,8 @@
-import person from "./person.js";
-import prsn from "./person.js"
+class Person {
+    constructor()  {
+        this.name = 'Kertu'
+    }
+}
 
-import {cleanOutput, data} from "./utils.js";
-
-import { cleanOutput as clean } from "./utils.js"
+const person = new Person()
 console.log(person)
-console.log(prsn)
-cleanOutput()
-console.log(data)
-clean()
-console.log(utils.data)
